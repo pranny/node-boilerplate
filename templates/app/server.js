@@ -11,7 +11,7 @@ server.configure(function(){
     server.set('view options', { layout: false });
     server.use(connect.bodyParser());
     server.use(express.cookieParser());
-    server.use(express.session({ secret: "shhhhhhhhh!"}));
+    server.use(express.session({ secret: "kusis7923j3/28272_sj|K87253u2hsi2"}));
     server.use(connect.static(__dirname + '/static'));
     server.use(server.router);
 });
